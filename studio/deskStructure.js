@@ -89,7 +89,7 @@ export default () =>
               S.document()
                 .documentId(documentId)
                 .schemaType('person')
-                .views([S.view.form(), S.view.component(BusinessCard)])
+                .views([S.view.form(), S.view.component(BusinessCard).title('Card')])
             )
         ),
       S.listItem()

@@ -3,10 +3,9 @@ import PropTypes from 'prop-types'
 import Moveable from 'react-moveable'
 import RadioButtons from 'part:@sanity/components/selects/radio'
 import styles from './NewyorkBanner.css'
-import client from 'part:@sanity/base/client'
 import urlBuilder from '../../imageUrl'
+s
 
-const urlFor = source => urlBuilder(client.config()).source(source)
 class NewyorkBanner extends React.PureComponent {
   static propTypes = {
     tagline: PropTypes.string
